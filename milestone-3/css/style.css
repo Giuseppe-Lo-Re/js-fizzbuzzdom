@@ -1,0 +1,36 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 50px 0;
+}
+
+.numbers-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #2b8ab2;
+    font-size: 27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
