@@ -37,8 +37,4 @@ for(let i = 1; i<= 100; i++) {
 
     // concateno a numberContainer:
     numbersContainer.innerHTML += newBox;
-
-    
-
-
 }
