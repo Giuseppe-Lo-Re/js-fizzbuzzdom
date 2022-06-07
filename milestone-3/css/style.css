@@ -27,10 +27,22 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 10px;
-    background-color: #2b8ab2;
-    font-size: 27px;
-    color: white;
+    background-color: #1489b2 ;
+    font-size: 20px;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.box.fizz {
+    background-color: #13d6a0;
+}
+
+.box.buzz {
+    background-color: #fed166;
+}
+
+.box.fizzbuzz {
+    background-color: #f1466f;
 }
