@@ -11,7 +11,7 @@ for(let i = 1; i<= 100; i++) {
 
     // Per i multipli di 3 stampo Fizz, per i multipli di 5 Buzz.
     // Per i numeri che sono sia multipli di 3 che di 5 stampo FizzBuzz:
-    if ((i % 3 == 0) && (i % 5 == 0)) {
+    if ((i % 3 === 0) && (i % 5 === 0)) {
     FizzOrBuzz = 'FizzBuzz';
     } else if(i % 3 === 0) {
     FizzOrBuzz = "Fizz";
